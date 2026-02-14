@@ -8,7 +8,7 @@ for (var i=1; i<=112;i++){
 }
 document.querySelector("#pbtm").innerHTML=clutter;
 }
-var timer =6;
+var timer =30;
 function runTimer(){
       var cleartimer=  setInterval(function(){
             if (timer>0){
@@ -43,3 +43,4 @@ document.querySelector("#pbtm").addEventListener("click",function(details){
 getNewHit();
 runTimer();
 makeBubble();
+
